@@ -4,9 +4,9 @@
         <attribute name="name" value="exercise-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-06-25 03:09:15 PM"/>
+        <attribute name="saved" value="2026-06-25 03:38:13 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMjo1MDozMiBQTTsyNzUw"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzowOToxNSBQTTsxOzI4NjQ="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzozODoxMyBQTTsyOzI4NjU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -17,6 +17,7 @@
             <input variable="WoodPrice"/>
             <assign variable="TotalLengthTimber" expression="LengthTimber * 10% Extra"/>
             <assign variable="TotalPrice" expression="TotalLengthTimber * WoodPrice"/>
+            <declare name="TotalPrice" type="Integer" array="False" size=""/>
             <output expression="TotalPrice" newline="True"/>
         </body>
     </function>
