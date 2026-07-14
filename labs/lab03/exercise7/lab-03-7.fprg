@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-7"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-14 10:49:48 AM"/>
+        <attribute name="saved" value="2026-07-14 11:30:04 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNDsxMDo0NTowOCBBTTsyNzQw"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNDsxMDo0OTo0OCBBTTsxOzI4NTY="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNDsxMTozMDowNCBBTTszOzI4NDE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -17,7 +17,7 @@
             <assign variable="fahrenheit" expression="celsius * (9/5) + 32"/>
             <output expression="fahrenheit" newline="True"/>
             <declare name="kelvin" type="Real" array="False" size=""/>
-            <assign variable="kelvin" expression="celsius + 273"/>
+            <assign variable="kelvin" expression="celsius + 273.15"/>
             <output expression="kelvin" newline="True"/>
         </body>
     </function>
