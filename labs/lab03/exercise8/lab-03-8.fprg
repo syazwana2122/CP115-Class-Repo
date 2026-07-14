@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-8"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-14 11:00:15 AM"/>
+        <attribute name="saved" value="2026-07-14 11:32:37 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNDsxMDo1MTozMyBBTTsyNzM1"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNDsxMTowMDoxNSBBTTsxOzI4Mzg="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNDsxMTozMjozNyBBTTsyOzI4NDg="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -18,7 +18,7 @@
             <declare name="time" type="Real" array="False" size=""/>
             <input variable="time"/>
             <declare name="interest" type="Real" array="False" size=""/>
-            <assign variable="interest" expression="(principal + rate + time)/100"/>
+            <assign variable="interest" expression="principal * (rate/100)"/>
             <output expression="interest" newline="True"/>
             <declare name="totalAmount" type="Real" array="False" size=""/>
             <assign variable="totalAmount" expression="principal + interest"/>
