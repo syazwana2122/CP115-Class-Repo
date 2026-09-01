@@ -2,9 +2,7 @@ import pytest
 import subprocess
 import sys
 import os
-
-
-@pytest.fixture
+@pytest.mark.parametrize("principal,rate,time", [
 def exercise_path():
     """Path to the student's solution file."""
     return os.path.join(os.path.dirname(os.path.dirname(__file__)), 'lab-03-8.py')
